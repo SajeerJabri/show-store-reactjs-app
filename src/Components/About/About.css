@@ -1,0 +1,75 @@
+.aboutContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -22;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),
+    url('../../images/background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;  
+}
+
+.aboutText{
+    width: 60%;
+    margin: auto;
+   margin-top: 10%;
+}
+.aboutText h1{
+    margin-bottom: 30px;
+    color: #efdeff;
+    font-size: 50px;
+}
+.aboutText p{
+    color: #efdeff;
+    margin: 10px;
+}
+
+
+/* =======================responsive ============= */
+
+@media screen and (max-width: 1055px){
+    .aboutText{
+       margin-top: 12%;
+       width: 80%;
+    } 
+    .aboutText h1{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 745px){
+    .aboutText{
+       margin-top: 15%;
+       width: 90%;
+    } 
+    .aboutText h1{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 647px){
+    .aboutText{
+       margin-top: 20%;
+       width: 100%;
+    }
+    .aboutText p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 465px){
+    .aboutContainer{
+        background-image: none;
+        background-color: #fff;
+    }
+    .aboutText{
+        margin-top: 33%;
+     }
+    .aboutText h1{
+    color: #551abb;
+    }
+    .aboutText p{
+        color: #000;
+    }
+}

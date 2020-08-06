@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #efdeff;
+    z-index: 10;
+}
+.logoSection{
+    flex-basis: 25%;
+}
+.header img{
+    width: 40%;
+    height: 100%;
+    outline: none;
+}
+.header img a{
+    text-decoration: none;
+}
+.navbar{
+    flex-basis: 75%;
+    width: 60%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-content: center;
+}
+.navbar ul li{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+}
+.navbar ul li a{
+    color: #551abb;
+    text-decoration: none;
+}
